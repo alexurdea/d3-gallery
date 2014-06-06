@@ -1,7 +1,7 @@
 var data = [100, 200, 300];
 var r = 200;
 
-var color = d3.scale.ordinal().range(['green', '#54d154', '#659165']);
+var color = d3.scale.ordinal().range(['#5F6F5F', '#BFDFBF', '#659165']);
 
 var svg = d3.select('body').append('svg')
   .attr('width', '100%')
